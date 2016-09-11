@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FF19D142447B246FFC61A5C /* Pods_TSBB_app_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50988F89D79DEA2A3658198D /* Pods_TSBB_app_2.framework */; };
 		D85581F71D6541A600DCA4B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85581F61D6541A600DCA4B6 /* AppDelegate.swift */; };
 		D85581F91D6541A600DCA4B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85581F81D6541A600DCA4B6 /* ViewController.swift */; };
 		D85581FC1D6541A600DCA4B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85581FA1D6541A600DCA4B6 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		D85582011D6541A600DCA4B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D85581FF1D6541A600DCA4B6 /* LaunchScreen.storyboard */; };
 		D855820C1D6541A600DCA4B6 /* TSBB_app_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D855820B1D6541A600DCA4B6 /* TSBB_app_2Tests.swift */; };
 		D85582171D6541A600DCA4B6 /* TSBB_app_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85582161D6541A600DCA4B6 /* TSBB_app_2UITests.swift */; };
+		D855825F1D66966F00DCA4B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D855825E1D66966F00DCA4B6 /* GoogleService-Info.plist */; };
+		D8ABA62C1D7100F1004184FE /* summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ABA62B1D7100F0004184FE /* summary.swift */; };
+		D8D873AA1D691FBE00CF20B2 /* secondpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873A91D691FBE00CF20B2 /* secondpage.swift */; };
+		D8D873AC1D693F8000CF20B2 /* page2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873AB1D693F8000CF20B2 /* page2Cell.swift */; };
+		D8D873B01D6A638C00CF20B2 /* thirdpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873AF1D6A638C00CF20B2 /* thirdpage.swift */; };
+		D8D873B21D6A741200CF20B2 /* fourthpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873B11D6A741200CF20B2 /* fourthpage.swift */; };
+		D8D873B41D6A742000CF20B2 /* fifthpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873B31D6A742000CF20B2 /* fifthpage.swift */; };
+		D8D873B61D6BABEB00CF20B2 /* sixthpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873B51D6BABEA00CF20B2 /* sixthpage.swift */; };
+		D8D873B81D6BAC0C00CF20B2 /* seventhpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D873B71D6BAC0C00CF20B2 /* seventhpage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50988F89D79DEA2A3658198D /* Pods_TSBB_app_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TSBB_app_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8B587A032552C6CDE35891D /* Pods-TSBB app 2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSBB app 2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TSBB app 2/Pods-TSBB app 2.debug.xcconfig"; sourceTree = "<group>"; };
+		D120439484E3B63F42481530 /* Pods-TSBB app 2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TSBB app 2.release.xcconfig"; path = "Pods/Target Support Files/Pods-TSBB app 2/Pods-TSBB app 2.release.xcconfig"; sourceTree = "<group>"; };
 		D85581F31D6541A600DCA4B6 /* TSBB app 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TSBB app 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85581F61D6541A600DCA4B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D85581F81D6541A600DCA4B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,15 @@
 		D85582121D6541A600DCA4B6 /* TSBB app 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TSBB app 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85582161D6541A600DCA4B6 /* TSBB_app_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSBB_app_2UITests.swift; sourceTree = "<group>"; };
 		D85582181D6541A600DCA4B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D855825E1D66966F00DCA4B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D8ABA62B1D7100F0004184FE /* summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = summary.swift; sourceTree = "<group>"; };
+		D8D873A91D691FBE00CF20B2 /* secondpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondpage.swift; sourceTree = "<group>"; };
+		D8D873AB1D693F8000CF20B2 /* page2Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = page2Cell.swift; sourceTree = "<group>"; };
+		D8D873AF1D6A638C00CF20B2 /* thirdpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdpage.swift; sourceTree = "<group>"; };
+		D8D873B11D6A741200CF20B2 /* fourthpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fourthpage.swift; sourceTree = "<group>"; };
+		D8D873B31D6A742000CF20B2 /* fifthpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fifthpage.swift; sourceTree = "<group>"; };
+		D8D873B51D6BABEA00CF20B2 /* sixthpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sixthpage.swift; sourceTree = "<group>"; };
+		D8D873B71D6BAC0C00CF20B2 /* seventhpage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = seventhpage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF19D142447B246FFC61A5C /* Pods_TSBB_app_2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6CD3F8C597BA55ADE21A5FE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8B587A032552C6CDE35891D /* Pods-TSBB app 2.debug.xcconfig */,
+				D120439484E3B63F42481530 /* Pods-TSBB app 2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAB16DDDD28518DB44DC32F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50988F89D79DEA2A3658198D /* Pods_TSBB_app_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D85581EA1D6541A600DCA4B6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				D855820A1D6541A600DCA4B6 /* TSBB app 2Tests */,
 				D85582151D6541A600DCA4B6 /* TSBB app 2UITests */,
 				D85581F41D6541A600DCA4B6 /* Products */,
+				6CD3F8C597BA55ADE21A5FE9 /* Pods */,
+				AAB16DDDD28518DB44DC32F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,21 @@
 		D85581F51D6541A600DCA4B6 /* TSBB app 2 */ = {
 			isa = PBXGroup;
 			children = (
+				D855825E1D66966F00DCA4B6 /* GoogleService-Info.plist */,
 				D85581F61D6541A600DCA4B6 /* AppDelegate.swift */,
 				D85581F81D6541A600DCA4B6 /* ViewController.swift */,
 				D85581FA1D6541A600DCA4B6 /* Main.storyboard */,
 				D85581FD1D6541A600DCA4B6 /* Assets.xcassets */,
 				D85581FF1D6541A600DCA4B6 /* LaunchScreen.storyboard */,
 				D85582021D6541A600DCA4B6 /* Info.plist */,
+				D8D873A91D691FBE00CF20B2 /* secondpage.swift */,
+				D8D873AF1D6A638C00CF20B2 /* thirdpage.swift */,
+				D8D873B11D6A741200CF20B2 /* fourthpage.swift */,
+				D8D873B31D6A742000CF20B2 /* fifthpage.swift */,
+				D8D873AB1D693F8000CF20B2 /* page2Cell.swift */,
+				D8D873B51D6BABEA00CF20B2 /* sixthpage.swift */,
+				D8D873B71D6BAC0C00CF20B2 /* seventhpage.swift */,
+				D8ABA62B1D7100F0004184FE /* summary.swift */,
 			);
 			path = "TSBB app 2";
 			sourceTree = "<group>";
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D855821B1D6541A600DCA4B6 /* Build configuration list for PBXNativeTarget "TSBB app 2" */;
 			buildPhases = (
+				C2FAF4CA5F7F415F5FCF481D /* [CP] Check Pods Manifest.lock */,
 				D85581EF1D6541A600DCA4B6 /* Sources */,
 				D85581F01D6541A600DCA4B6 /* Frameworks */,
 				D85581F11D6541A600DCA4B6 /* Resources */,
+				FC70367166BB6D23D23D53BD /* [CP] Embed Pods Frameworks */,
+				5464B556E8F2F2016F7CFE09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D85582011D6541A600DCA4B6 /* LaunchScreen.storyboard in Resources */,
+				D855825F1D66966F00DCA4B6 /* GoogleService-Info.plist in Resources */,
 				D85581FE1D6541A600DCA4B6 /* Assets.xcassets in Resources */,
 				D85581FC1D6541A600DCA4B6 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +306,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5464B556E8F2F2016F7CFE09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSBB app 2/Pods-TSBB app 2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2FAF4CA5F7F415F5FCF481D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC70367166BB6D23D23D53BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TSBB app 2/Pods-TSBB app 2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D85581EF1D6541A600DCA4B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D85581F91D6541A600DCA4B6 /* ViewController.swift in Sources */,
+				D8D873AC1D693F8000CF20B2 /* page2Cell.swift in Sources */,
+				D8ABA62C1D7100F1004184FE /* summary.swift in Sources */,
+				D8D873B01D6A638C00CF20B2 /* thirdpage.swift in Sources */,
+				D8D873B81D6BAC0C00CF20B2 /* seventhpage.swift in Sources */,
+				D8D873B41D6A742000CF20B2 /* fifthpage.swift in Sources */,
+				D8D873AA1D691FBE00CF20B2 /* secondpage.swift in Sources */,
+				D8D873B21D6A741200CF20B2 /* fourthpage.swift in Sources */,
 				D85581F71D6541A600DCA4B6 /* AppDelegate.swift in Sources */,
+				D8D873B61D6BABEB00CF20B2 /* sixthpage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +510,7 @@
 		};
 		D855821C1D6541A600DCA4B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8B587A032552C6CDE35891D /* Pods-TSBB app 2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TSBB app 2/Info.plist";
@@ -410,6 +522,7 @@
 		};
 		D855821D1D6541A600DCA4B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D120439484E3B63F42481530 /* Pods-TSBB app 2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "TSBB app 2/Info.plist";
@@ -484,6 +597,7 @@
 				D855821D1D6541A600DCA4B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D855821E1D6541A600DCA4B6 /* Build configuration list for PBXNativeTarget "TSBB app 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +606,7 @@
 				D85582201D6541A600DCA4B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D85582211D6541A600DCA4B6 /* Build configuration list for PBXNativeTarget "TSBB app 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +615,7 @@
 				D85582231D6541A600DCA4B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
